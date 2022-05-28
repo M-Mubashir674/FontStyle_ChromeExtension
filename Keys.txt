@@ -1,0 +1,36 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDCdg8Nr8L6pb2lT4WYvxwAUPQBOBgSK90",
+  authDomain: "chrono24-app-88b74.firebaseapp.com",
+  projectId: "chrono24-app-88b74",
+  storageBucket: "chrono24-app-88b74.appspot.com",
+  messagingSenderId: "314156540926",
+  appId: "1:314156540926:web:fa1b4f85693e56854096af",
+  measurementId: "G-3L290VGH9T"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
+
+
+
+M.Mubashir
+
+    apiKey: "AIzaSyD8icCDmJ3Y2uFOCkHHHEI7wdOU9g_0334" ,
+    authDomain: "chatapp-bffb8.firebaseapp.com" ,
+    projectId: "chatapp-bffb8" ,
+    storageBucket: "chatapp-bffb8.appspot.com" ,
+    messagingSenderId: "299787422771" ,
+    appId: "1:299787422771:web:c3a77299db8dec0ff0e746" ,
+    measurementId: "G-LS5TWCW5M1"

@@ -1,0 +1,36 @@
+{
+    "name":"Font Styler",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "description":"Change Font Style Of Page",
+    "author":"M.Mubashir",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"logo.png"
+    },
+    "background":{
+        "service_worker":"background.js"
+    },
+    "content_scripts":[{
+        "matches":["https://*/*"],
+        "js":["content.js"]
+      },{
+      "matches":["http://*/*"],
+      "js":["content.js"]
+      }],
+    "icons":{
+        "16":"logo.png",
+        "48":"logo.png",
+        "128":"logo.png"
+    },
+    "permissions":[
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*/*"
+    ]
+  }
+  
+  
